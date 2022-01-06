@@ -1,18 +1,10 @@
 <template>
-  <div> 
-    HI!
-  </div>
+  <v-container> HI! </v-container>
 </template>
 
 <script>
 export default {
   name: "HelloWorld",
-  props: {
-  }
-}
+  props: {},
+};
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
