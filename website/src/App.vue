@@ -1,7 +1,38 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      
+    <v-app-bar dense app color="green" dark>
+      <v-app-bar-title>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/qwert45hi"
+          style="
+            font-family: Oxanium;
+            font-size: 24px;
+            color: white;
+            text-decoration: none;
+          "
+        >
+          niqzart
+        </a>
+      </v-app-bar-title>
+      <v-spacer></v-spacer>
+      <v-app-bar-title
+        style="font-family: Quantico; font-size: 28px; color: white; text-decoration: none"
+      >
+        ExpressView
+      </v-app-bar-title>
+      <v-spacer></v-spacer>
+      <v-app-bar-title>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/qwert45hi/express-view"
+          style="font-size: 24px; color: white; text-decoration: none"
+        >
+          github
+        </a>
+      </v-app-bar-title>
     </v-app-bar>
 
     <v-main>
