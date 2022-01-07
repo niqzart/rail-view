@@ -20,7 +20,7 @@
       <v-app-bar-title
         style="font-family: Quantico; font-size: 28px; color: white; text-decoration: none"
       >
-        ExpressView
+        RailView
       </v-app-bar-title>
       <v-spacer></v-spacer>
       <v-app-bar-title>
