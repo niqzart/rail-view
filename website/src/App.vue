@@ -17,10 +17,19 @@
         </a>
       </v-app-bar-title>
       <v-spacer></v-spacer>
-      <v-app-bar-title
-        style="font-family: Quantico; font-size: 28px; color: white; text-decoration: none"
-      >
-        RailView
+      <v-app-bar-title>
+        <a
+          href="/"
+          v-bind:class="{ disabled: isActive }"
+          style="
+            font-family: Quantico;
+            font-size: 28px;
+            color: white;
+            text-decoration: none;
+          "
+        >
+          RailView
+        </a>
       </v-app-bar-title>
       <v-spacer></v-spacer>
       <v-app-bar-title>
@@ -43,7 +52,16 @@
 
 <script>
 export default {
-  components: {
+  computed: {
+    isActive() {
+      return this.$root.currentRoute === "/";
+    },
   },
 };
 </script>
+
+<style scoped>
+.disabled {
+  pointer-events: none;
+}
+</style>
